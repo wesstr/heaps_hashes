@@ -1,0 +1,31 @@
+﻿Build started 7/21/2015 7:02:30 PM.
+     1>Project "c:\Users\Wesley\documents\visual studio 2013\Projects\haps_hashes\haps_hashes\haps_hashes.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt haps_hashes.cpp
+         haps_hashes.cpp
+     1>c:\users\wesley\documents\visual studio 2013\projects\haps_hashes\haps_hashes\mutable_heap.h(43): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+                 c:\users\wesley\documents\visual studio 2013\projects\haps_hashes\haps_hashes\mutable_heap.h(35) : while compiling class template member function 'void mutable_heap<int>::push(T)'
+                 with
+                 [
+                     T=int
+                 ]
+                 c:\users\wesley\documents\visual studio 2013\projects\haps_hashes\haps_hashes\haps_hashes.cpp(28) : see reference to function template instantiation 'void mutable_heap<int>::push(T)' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+                 c:\users\wesley\documents\visual studio 2013\projects\haps_hashes\haps_hashes\haps_hashes.cpp(26) : see reference to class template instantiation 'mutable_heap<int>' being compiled
+     1>c:\users\wesley\documents\visual studio 2013\projects\haps_hashes\haps_hashes\mutable_heap.h(50): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\wesley\documents\visual studio 2013\projects\haps_hashes\haps_hashes\mutable_heap.h(83): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+                 c:\users\wesley\documents\visual studio 2013\projects\haps_hashes\haps_hashes\mutable_heap.h(61) : while compiling class template member function 'int mutable_heap<int>::pop(void)'
+                 c:\users\wesley\documents\visual studio 2013\projects\haps_hashes\haps_hashes\haps_hashes.cpp(37) : see reference to function template instantiation 'int mutable_heap<int>::pop(void)' being compiled
+     1>c:\users\wesley\documents\visual studio 2013\projects\haps_hashes\haps_hashes\mutable_heap.h(90): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\wesley\documents\visual studio 2013\Projects\haps_hashes\Debug\haps_hashes.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\wesley\documents\visual studio 2013\Projects\haps_hashes\Debug\haps_hashes.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\wesley\documents\visual studio 2013\Projects\haps_hashes\Debug\haps_hashes.lib" /MACHINE:X86 Debug\haps_hashes.obj
+         Debug\stdafx.obj
+         haps_hashes.vcxproj -> c:\users\wesley\documents\visual studio 2013\Projects\haps_hashes\Debug\haps_hashes.exe
+     1>Done Building Project "c:\Users\Wesley\documents\visual studio 2013\Projects\haps_hashes\haps_hashes\haps_hashes.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.36
